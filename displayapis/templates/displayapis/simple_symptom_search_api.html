@@ -1,0 +1,13 @@
+<html>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{form.as_table}} 
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Search Symptoms To Avoid!"></td>
+            </tr>
+         </table>
+    </form>
+
+</html>
